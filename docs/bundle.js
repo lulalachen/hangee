@@ -41163,12 +41163,12 @@
 				_react2.default.createElement(
 					'p',
 					null,
-					'\u4F60\u9084\u8A18\u5F97\u90A3\u5929\u5728\u516C\u5712\u548C\u4F60\u8AAA\u7684\u5BC6\u78BC\u55CE\uFF1F'
+					'\u9084\u8A18\u5F97\u90A3\u5929\u6211\u5011\u5728\u516C\u5712\u6642\uFF0C\u6211\u548C\u4F60\u8AAA\u7684\u5BC6\u78BC\u55CE\uFF1F'
 				),
 				_react2.default.createElement(
 					'p',
 					null,
-					'\u60F3\u8981\u770B\u5361\u7247\u7684\u8A71\u5C31\u52AA\u529B\u56DE\u60F3\u5594\uFF01'
+					'\u8981\u770B\u5361\u7247\u5C31\u52AA\u529B\u56DE\u60F3\u5594\uFF01'
 				),
 				_react2.default.createElement(
 					'p',
@@ -41204,12 +41204,12 @@
 				_react2.default.createElement(
 					'p',
 					null,
-					'\u8A18\u5F97\u6211\u8AAA\u904E\u751F\u65E5\u7576\u5929\u8981\u65E9\u8D77\u55CE\uFF01'
+					'\u8A18\u5F97\u4E4B\u524D\u6211\u66FE\u7D93\u548C\u4F60\u8AAA\u904E\u751F\u65E5\u7576\u5929\u8981\u65E9\u8D77\u55CE\uFF01'
 				),
 				_react2.default.createElement(
 					'p',
 					null,
-					'12/12\u65E9\u4E0A\u4E03\u9EDE\u5DE6\u53F3\u6572\u6211\u62FF\u6700\u5F8C\u7684\u5BC6\u78BC'
+					'12/12\u65E9\u4E0A\u4E03\u9EDE\u5DE6\u53F3\u6572\u6211\u62FF\u6700\u5F8C\u7684\u5BC6\u78BC\u5427\uFF01'
 				)
 			),
 			isFinalPasswordCorrect && _react2.default.createElement(_FinalMessage2.default, null)
