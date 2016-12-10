@@ -1,0 +1,18 @@
+.signUpSuccess {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signUpSuccessModal {
+  width: 360px;
+  padding: 45px 30px;
+  font-size: 18px;
+  color: #808080;
+  background-color: #FFFFFF;
+}
+
+.signUpSuccessModal > div:not(:first-child) {
+  margin-top: 25px;
+}

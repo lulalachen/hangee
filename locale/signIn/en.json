@@ -1,0 +1,13 @@
+{
+  "login": "Login",
+  "fbLogin": "Login with Facebook",
+  "noAccount": "Don’t have an account?",
+  "createOne": "Sign up now!",
+  "userNotFound": "Username not found",
+  "passwordError": "Incorrect passwords",
+  "verificationUncomplete": "Account not verified yet, please check your mailbox and complete the verification process.",
+  "forgotPassword": "Forgot password?",
+  "or": "or",
+  "pleaseEnterEmail": "Your email account.",
+  "pleaseEnterPassword": "Your password."
+}

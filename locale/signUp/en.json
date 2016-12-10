@@ -1,0 +1,14 @@
+{
+  "register": "Sign up with email",
+  "fbRegister": "Sign up with Facebook",
+  "facebookRegisterGet1TC": "Sign up with Facebook and earn an extra hr. of timecoin!",
+  "warning": "Proceeding meaning well aware of and {agree} our {policy} and {privacy}.",
+  "agree": "agree",
+  "policy": "Terms",
+  "privacy": "Privacy",
+  "haveAccount": "Have an account already? {login} here.",
+  "login": "Log in",
+  "alreayExist": "The account already existed!",
+  "emailFormatError": "Incorrect form of email!",
+  "passwordFormatError": "The password needs to contain at least 8-15 characters"
+}

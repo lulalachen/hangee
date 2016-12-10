@@ -1,0 +1,13 @@
+{
+  "login": "登入",
+  "fbLogin": "Facebook 登入",
+  "noAccount": "還沒有帳號嗎？",
+  "createOne": "創一個！",
+  "userNotFound": "找不到使用者！",
+  "passwordError": "密碼錯誤！",
+  "verificationUncomplete": "帳號尚未認證，請收取Email並完成認證程序！",
+  "forgotPassword": "忘記密碼？",
+  "or": "或",
+  "pleaseEnterEmail": "請輸入帳號",
+  "pleaseEnterPassword": "請輸入密碼"
+}

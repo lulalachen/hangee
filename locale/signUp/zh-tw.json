@@ -1,0 +1,14 @@
+{
+  "register": "信箱註冊",
+  "fbRegister": "透過 Facebook 註冊",
+  "facebookRegisterGet1TC": "用 Facebook 註冊賺取額外一小時 timecoin！",
+  "warning": "按下註冊後表示您已經詳閱並{agree}TimeExchange資料{policy}和{privacy}",
+  "agree": "同意",
+  "policy": "使用條款",
+  "privacy": "隱私條款",
+  "haveAccount": "已經有帳號了嗎？立刻{login}。",
+  "login": "登入",
+  "alreayExist": "帳號已存在！",
+  "emailFormatError": "Email格式有誤！",
+  "passwordFormatError": "密碼需為8至15字元！"
+}

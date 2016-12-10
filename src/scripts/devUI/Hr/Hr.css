@@ -1,0 +1,15 @@
+.hrWrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #CDCDCD;
+  font-size: 12px;
+}
+
+.hrWrapper > hr {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #CDCDCD;
+  height: 0;
+}

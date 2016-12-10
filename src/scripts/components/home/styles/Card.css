@@ -1,0 +1,28 @@
+.wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+	position: relative;
+	max-width: 100%;
+	min-width: 27em;
+	padding: 4.5em 3em 3em 3em ;
+	background: #FFFFFF;
+	border-radius: 4px;
+	cursor: default;
+	opacity: 0.95;
+	text-align: center;
+	transform-origin: 50% 50%;
+	transform: rotateX(0deg);
+	transition: opacity 1s ease, transform 1s ease;
+}
+
+@media screen and (max-width: 480px) {
+
+	.wrap {
+		min-width: 0;
+		width: 100%;
+		padding: 4em 2em 2.5em 2em;
+    margin: auto 2em;
+	}
+
+}

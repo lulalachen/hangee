@@ -1,0 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
+.base {
+  min-height: 100vh;
+}
