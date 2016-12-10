@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "static": "cp -aR src/images docs/ && cp -aR src/statics docs/",
+    "static": "cp -aR src/images docs/ && cp -aR src/statics docs/ && mv docs/images/favicon.ico docs/",
     "prebuild": "rm -rf docs/",
     "build": "webpack --config webpack/webpack.base.config.js && npm run static",
     "build:locale": "babel-node ./locale/buildLocale.js",
