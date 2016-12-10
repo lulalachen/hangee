@@ -1,7 +1,7 @@
 .wrap {
   overflow: hidden;
   display: flex;
-  margin: 25px auto;
+  margin-top: 10px;
 }
 
 .cake {
@@ -106,6 +106,10 @@
 }
 
 @media screen and (max-width: 480px) {
+
+  .wrap {
+    margin-top: 0px;
+  }
 
   .velas {
     top: 62px;

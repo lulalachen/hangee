@@ -1,35 +1,46 @@
 import React from 'react'
+import TypeWriter from 'react-typewriter'
+import { animateScroll } from 'react-scroll'
+import { compose, withHandlers, withState } from 'recompose'
+import GiftBoxPanel from '../components/home/GiftBoxPanel'
 import Card from '../components/home/Card'
-import ArrowDown from '../components/home/ArrowDown'
-import BirthdayCake from '../components/home/BirthdayCake'
+import IntroPanel from '../components/home/IntroPanel'
 import styles from './styles/Home.css'
 
-const Avatar = ({
-	src,
-}) => (
-	<div
-		className={styles.avatar}
-		style={{
-			backgroundImage: `url('${src}')`,
-		}}
-	/>
+const enhance = compose(
+	withState('showBirthdayCard', 'updateShowBirthdayCard', false),
+	withHandlers({
+		handleClickCardInGiftBox: ({
+			showBirthdayCard,
+			updateShowBirthdayCard,
+		}) => () => {
+			if (!showBirthdayCard) updateShowBirthdayCard(true)
+			animateScroll.scrollToBottom()
+		},
+	})
 )
 
-const imageSrc = process.env.NODE_ENV === 'production'
-	? 'images/avatar.jpg'
-	: 'images/lulalaAvatar.jpg'
-
-const Home = () => (
+const Home = ({
+	handleClickCardInGiftBox,
+	showBirthdayCard,
+}) => (
 	<div className={styles.wrap}>
-		<Card>
-			<Avatar src={imageSrc} />
-			<span className={styles.homeCardText}>
-				Happy Birthday Hannah
-			</span>
-			<BirthdayCake />
-			<ArrowDown className={styles.arrowDown} />
+		<IntroPanel />
+
+		<GiftBoxPanel
+			handleClickCardInGiftBox={handleClickCardInGiftBox}
+		/>
+
+		<Card
+			id="birthdayCard"
+			style={{
+				display: showBirthdayCard ? 'flex' : 'none',
+			}}
+		>
+			This is birthday card!!
 		</Card>
+
 	</div>
 )
 
-export default Home
+export default enhance(Home)
