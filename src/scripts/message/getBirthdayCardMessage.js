@@ -1,7 +1,17 @@
 const getBirthdayCardMessage = () => `
-  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-  Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s,
-  when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+耶一～恭喜你順利來到了22歲的這一天，祝你生日快樂。
+大四的這一年，尤其是近來這一個多月，生活甚至人生都面臨著巨大的變化和考驗，而焦慮迷惘的你，也持續用你的樂觀和溫暖面對所有迎面而來的挑戰，我想和你說聲「辛苦了！我們都變成更好的人了」。
+
+幾次與你在台北街頭長聊，交換著心情和音樂、細數著生活中的點點滴滴
+分享著腦中繁雜纏繞著的複雜思想，而我們都說著對彼此有一種相見恨晚的感覺。
+然而，命運將我們在這個點繫上了，沒有早一步、沒有晚一步，讓彼此過往的點滴，累積昇華成更好的有故事的我們。
+
+「雨會下雨會停，這是不變的道理，夜空中北極星，迷路的人不恐懼」，而我們都知道，白天終將來到，我們也將帶著各自的故事繼續走向晴朗的明天。我很期待早晨的燻鮭魚貝果，你呢？
+
+生日快樂 :)
+更多的話，就寫在卡片裡嘍！
+
+魯拉
 `
 
 export default getBirthdayCardMessage
