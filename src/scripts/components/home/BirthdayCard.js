@@ -4,6 +4,7 @@ import { animateScroll } from 'react-scroll'
 import TypeWriter from 'react-typewriter'
 import Card from '../common/Card'
 import ArrowDown from '../common/ArrowDown'
+import getBirthdayCardMessage from '../../message/getBirthdayCardMessage'
 import styles from './styles/BirthdayCard.css'
 
 const enhance = compose(
@@ -31,12 +32,10 @@ const BirthdayCard = ({
     <h2>To 宇涵</h2>
     <TypeWriter
       fixed
-      typing={1}
+      typing={0.7}
       onTypingEnd={onTypingEnd}
     >
-      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-      when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+      {getBirthdayCardMessage()}
     </TypeWriter>
     {
       isTypingDone &&

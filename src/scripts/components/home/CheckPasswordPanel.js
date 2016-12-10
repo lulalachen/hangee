@@ -1,8 +1,16 @@
 import React from 'react'
 import R from 'ramda'
+import { withHandlers } from 'recompose'
 import Card from '../common/Card'
 import Button from '../common/Button'
 import styles from './styles/CheckPasswordPanel.css'
+
+const enhance = withHandlers({
+  handleEnterSubmit:
+    ({ onSubmit }) => ({ keyCode }) => {
+      if (keyCode === 13) onSubmit()
+    },
+})
 
 const CheckPasswordPanel = ({
   children,
@@ -13,6 +21,7 @@ const CheckPasswordPanel = ({
   inputBoxBorderColor,
   inputBoxStyle,
   isPasswordCorrect,
+  handleEnterSubmit,
 }) => {
   const errorStyle = R.ifElse(
     R.isNil,
@@ -36,6 +45,7 @@ const CheckPasswordPanel = ({
       <input
         type="text"
         value={password}
+        onKeyDown={handleEnterSubmit}
         onChange={updatePassword}
         className={errorStyle}
         style={{
@@ -56,4 +66,5 @@ const CheckPasswordPanel = ({
     </Card>
   )
 }
-export default CheckPasswordPanel
+
+export default enhance(CheckPasswordPanel)
