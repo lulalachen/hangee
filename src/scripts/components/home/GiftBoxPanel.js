@@ -1,7 +1,7 @@
 import React from 'react'
 import LazyLoad from 'react-lazyload'
+import Card from '../common/Card'
 import GiftBox from './GiftBox'
-import Card from './Card'
 
 const LazyLoadPlaceHolder =
 	({ id, height, minHeight }) => (
@@ -17,7 +17,7 @@ const GiftBoxPanel = ({
       <LazyLoadPlaceHolder id="card2" height={500} minHeight={500} />
     }
   >
-    <Card minHeight={300}>
+    <Card minHeight={300} id="card2">
       <h2>Open the box!</h2>
       <GiftBox
         handleClickCardInGiftBox={handleClickCardInGiftBox}

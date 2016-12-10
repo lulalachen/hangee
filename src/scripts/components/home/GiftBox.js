@@ -1,19 +1,15 @@
 import React from 'react'
-import { Link } from 'react-scroll'
 import styles from './styles/GiftBox.css'
 
 const CardInGiftBox = ({ handleClickCardInGiftBox }) => (
-  <Link
-    spy smooth
-    duration={1000}
+  <div
     onClick={handleClickCardInGiftBox}
+    className={styles.giftcard}
   >
-    <div className={styles.giftcard}>
-      Click Me
-      To Read
-      Birthday Card
-    </div>
-  </Link>
+    Click Me
+    To Read
+    Birthday Card
+  </div>
 )
 
 const GiftBox = ({

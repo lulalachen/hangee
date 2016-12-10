@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link } from 'react-scroll'
 import Avatar from '../common/Avatar'
-import Card from './Card'
-import ArrowDown from './ArrowDown'
+import Card from '../common/Card'
+import ArrowDown from '../common/ArrowDown'
 import BirthdayCake from './BirthdayCake'
 import styles from './styles/IntroPanel.css'
 

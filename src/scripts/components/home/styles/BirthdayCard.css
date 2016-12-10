@@ -1,0 +1,12 @@
+.arrowDown {
+  margin-top: 25px;
+}
+
+@media screen and (max-width: 480px) {
+
+  .arrowDown {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+
+}
