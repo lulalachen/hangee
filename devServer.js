@@ -8,7 +8,7 @@ var config = require("./webpack/webpack.dev.config.js");
 var app = express();
 var compiler = webpack(config);
 
-app.use(express.static(__dirname + '/build'));
+app.use(express.static(__dirname + '/docs'));
 
 if (process.env.NODE_ENV !== 'production') {
   console.log('not production');
@@ -20,7 +20,7 @@ if (process.env.NODE_ENV !== 'production') {
 }
 
 app.get('*', function (req, res) {
-	res.sendFile(path.join(__dirname, 'build', 'index.html'));
+	res.sendFile(path.join(__dirname, 'docs', 'index.html'));
 })
 
 app.listen(8080, function(err) {

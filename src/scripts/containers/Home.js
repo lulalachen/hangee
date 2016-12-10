@@ -15,10 +15,14 @@ const Avatar = ({
 	/>
 )
 
+const imageSrc = process.env.NODE_ENV === 'production'
+	? 'images/avatar.jpg'
+	: 'images/lulalaAvatar.jpg'
+
 const Home = () => (
 	<div className={styles.wrap}>
 		<Card>
-			<Avatar src="images/avatar.jpg" />
+			<Avatar src={imageSrc} />
 			<span className={styles.homeCardText}>
 				Happy Birthday Hannah
 			</span>
