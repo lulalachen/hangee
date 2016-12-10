@@ -5,7 +5,7 @@ const precss = require('precss');
 const autoprefixer = require('autoprefixer');
 
 const localIdentName = '[name]__[local]___[hash:base64:5]'
-const OUTPUT_PATH = process.env.OUTPUT_PATH || 'build'
+const OUTPUT_PATH = process.env.OUTPUT_PATH || 'docs'
 
 module.exports = {
   entry: [

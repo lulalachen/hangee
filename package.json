@@ -4,10 +4,12 @@
   "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack --config webpack/webpack.base.config.js",
+    "static": "cp -aR src/images docs/",
+    "prebuild": "rm -rf docs/",
+    "build": "webpack --config webpack/webpack.base.config.js && npm run static",
     "build:locale": "babel-node ./locale/buildLocale.js",
-    "build:prod": "NODE_ENV=production webpack --config webpack/webpack.base.config.js",
-    "build:dev": "NODE_ENV=dev webpack --config webpack/webpack.base.config.js",
+    "build:prod": "NODE_ENV=production webpack --config webpack/webpack.base.config.js && npm run static",
+    "build:dev": "NODE_ENV=dev webpack --config webpack/webpack.base.config.js && npm run static",
     "eslint": "eslint ./",
     "watch": "babel-node ./devServer.js"
   },

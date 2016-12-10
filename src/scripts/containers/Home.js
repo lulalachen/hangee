@@ -18,7 +18,7 @@ const Avatar = ({
 const Home = () => (
 	<div className={styles.wrap}>
 		<Card>
-			<Avatar src="images/lulalaAvatar.jpg" />
+			<Avatar src="images/avatar.jpg" />
 			<span className={styles.homeCardText}>
 				Happy Birthday Hannah
 			</span>
