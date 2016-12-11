@@ -32,7 +32,23 @@ const BirthdayCard = ({
     <h2>To 宇涵</h2>
     <TypeWriter
       fixed
-      typing={0.7}
+      typing={1}
+      minDelay={80}
+      maxDelay={280}
+      delayMap={[
+        {
+          at: '、',
+          delay: 700,
+        },
+        {
+          at: '，',
+          delay: 500,
+        },
+        {
+          at: '。',
+          delay: 700,
+        },
+      ]}
       onTypingEnd={onTypingEnd}
     >
       {getBirthdayCardMessage()}
