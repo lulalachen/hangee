@@ -68874,19 +68874,40 @@
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+	var dest = new Date('2016-12-12 07:00:00');
+	var now = new Date();
+	var isTimeDue = now > dest;
+
 	var FinalMessage = function FinalMessage() {
 	  return _react2.default.createElement(
 	    _Card2.default,
 	    { minHeight: 150 },
-	    _react2.default.createElement(
-	      'h2',
+	    isTimeDue ? _react2.default.createElement(
+	      'span',
 	      null,
-	      '\u5B87\u6DB5\uFF01\u751F\u65E5\u5FEB\u6A02\uFF01'
-	    ),
-	    _react2.default.createElement(
-	      'p',
+	      _react2.default.createElement(
+	        'h2',
+	        null,
+	        '\u5B87\u6DB5\uFF01\u751F\u65E5\u5FEB\u6A02\uFF01'
+	      ),
+	      _react2.default.createElement(
+	        'p',
+	        null,
+	        '\u6253\u958B\u7A97\u6236\u770B\u770B\u5427 :D'
+	      )
+	    ) : _react2.default.createElement(
+	      'span',
 	      null,
-	      '\u6253\u958B\u7A97\u6236\u770B\u770B\u5427 :D'
+	      _react2.default.createElement(
+	        'h2',
+	        null,
+	        '\u563F\u563F\uFF01\u6642\u9593\u9084\u6C92\u5230\u5594'
+	      ),
+	      _react2.default.createElement(
+	        'p',
+	        null,
+	        '\u65E9\u4E0A\u4E03\u9EDE\u5C31\u77E5\u9053\u4E86 :D'
+	      )
 	    )
 	  );
 	};
