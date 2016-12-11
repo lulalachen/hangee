@@ -36571,17 +36571,12 @@
 				_react2.default.createElement(
 					'p',
 					null,
-					'\u8981\u7B49\u523012/12\u65E9\u4E0A\u624D\u6703\u770B\u5230'
+					'\u8981\u7B49\u5230\u751F\u65E5\u7576\u5929\u624D\u6703\u770B\u5230'
 				),
 				_react2.default.createElement(
 					'p',
 					null,
-					'\u8A18\u5F97\u4E4B\u524D\u6211\u66FE\u7D93\u548C\u4F60\u8AAA\u904E\u751F\u65E5\u7576\u5929\u8981\u65E9\u8D77\u55CE\uFF01'
-				),
-				_react2.default.createElement(
-					'p',
-					null,
-					'12/12\u65E9\u4E0A\u4E03\u9EDE\u5DE6\u53F3\u6572\u6211\u62FF\u6700\u5F8C\u7684\u5BC6\u78BC\u5427\uFF01'
+					'12/12\u665A\u4E0A\u6572\u6211\u62FF\u6700\u5F8C\u7684\u5BC6\u78BC\u5427\uFF01'
 				)
 			),
 			isFinalPasswordCorrect && _react2.default.createElement(_FinalMessage2.default, null)
