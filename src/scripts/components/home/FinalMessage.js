@@ -1,7 +1,7 @@
 import React from 'react'
 import Card from '../common/Card'
 
-const dest = new Date('2016-12-12 07:00:00')
+const dest = new Date('2016-12-12 20:00:00')
 const now = new Date()
 const isTimeDue = now > dest
 
@@ -15,7 +15,7 @@ const FinalMessage = () => (
         </span>
       : <span>
           <h2>嘿嘿！時間還沒到喔</h2>
-          <p>早上七點就知道了 :D</p>
+          <p>晚上就知道了 :D</p>
         </span>
     }
   </Card>

@@ -68869,7 +68869,7 @@
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	var dest = new Date('2016-12-12 07:00:00');
+	var dest = new Date('2016-12-12 20:00:00');
 	var now = new Date();
 	var isTimeDue = now > dest;
 
@@ -68901,7 +68901,7 @@
 	      _react2.default.createElement(
 	        'p',
 	        null,
-	        '\u65E9\u4E0A\u4E03\u9EDE\u5C31\u77E5\u9053\u4E86 :D'
+	        '\u665A\u4E0A\u5C31\u77E5\u9053\u4E86 :D'
 	      )
 	    )
 	  );
